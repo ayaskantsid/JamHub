@@ -2512,7 +2512,6 @@ label {
 input[type="search"] {
   box-sizing: border-box;
   -webkit-appearance: none;
-  appearance: none;
 }
 input[type="radio"],
 input[type="checkbox"] {
@@ -4530,11 +4529,12 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   color: #eeeeee;
 }
 .navbar-inverse {
-  background-color: #ffffff;
-  border-color: #e6e6e6;
+    background-color: #ff4342;
+    border-color: #ff4342;
 }
 .navbar-inverse .navbar-brand {
-  color: #999999;
+  color: #fff;
+  font-weight:700;
 }
 .navbar-inverse .navbar-brand:hover,
 .navbar-inverse .navbar-brand:focus {
@@ -4545,7 +4545,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   color: #999999;
 }
 .navbar-inverse .navbar-nav > li > a {
-  color: #999999;
+  color: #fff;
 }
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {
@@ -5775,7 +5775,6 @@ button.close {
   background: transparent;
   border: 0;
   -webkit-appearance: none;
-  appearance: none;
 }
 .modal-open {
   overflow: hidden;
