@@ -7048,3 +7048,7 @@ a.list-group-item-danger.active:focus {
 .popover {
   color: #555555;
 }
+
+.field-validation-error {
+    color: red;
+}
